@@ -1,0 +1,103 @@
+# Site settings
+title: 薛尧
+description: 简历中心
+favicon: /assets/img/avatar.png
+baseurl:  #http://resume.xueyao.org
+url:  #http://resume.xueyao.org
+rss_url: /pages/atom.xml
+google_analytics: #UA-63653234-1
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: 薛尧
+  title: Java Developer
+  address: 上海, 中国
+  email: xueyao.me@gmail.com
+  link: #http://ddbullfrog.com
+  weibo:
+  github: flowstone
+  linkedin: flowstone #ddbullfrog
+  twitter: yaoxue2014
+  gavatar: /assets/img/avatar.JPG
+  stackoverflow:
+#  stackoverflow: 4582127
+## 工作经历
+  workHistory:
+ 
+## 项目经历
+  projectHistory:
+    
+
+## 教育经历
+  educationHistory:
+    - education1:
+      organization: 苏州大学
+      location: 苏州, 中国
+      degree: 本科
+      major: 计算机信息管理
+      started: 2014
+      duration: (2014 - 2016)
+      description: 通过课外时间，参加了苏州大学自考并顺利获得本科学士学位，主修计算机网络原理、操作系统概论、数据结构导论、C++程序设计、信息资源管理等13门科目。
+    - education2:
+      organization: 苏州工业园区服务外包职业学院
+      location: 苏州, 中国
+      degree: 专科
+      major: 嵌入式技术与应用(移动互联网方向)
+      started: 2012
+      duration: (2012 - 2015)
+      description: 主修Java、Android、PHP、网页设计(HTML+JS+CSS)、Flash(ActionScript3.0)，并担任计算机专业相关(所有)科目课代表。
+## 语言技能
+  languages:
+    - language1:
+      name: Chinese
+      proficiency: 精通
+    - language2:
+      name: English
+      proficiency: 一般
+## 编程技术
+  programmingSkills:
+    - skill1:
+      name: HTML
+      percentage: 100%
+    - skill2:
+      name: Bootstrap
+      percentage: 60%
+    - skill3:
+      name: JavaScript
+      percentage: 50%
+    - skill4:
+      name: AJAX
+      percentage: 50%
+    - skill5:
+      name: Java/C
+      percentage: 40%
+    - skill6:
+      name: PHP+MySQL
+      percentage: 80%
+    - skill7:
+      name: Linux
+      percentage: 50%
+    - skill8:
+      name: 缓存技术(Memcache/redis)
+      percentage: 60%
+    - skill9:
+      name: DeDeCMS/PHPCMS/EmpireCMS
+      percentage: 70%
+    - skill10:
+      name: Git
+      percentage: 70%
+## 奖励及荣誉
+  awards:
+      - award1:
+        name: 获得2012-2013学年学院二等奖学金
+      - award2:
+        name: 获得2013-2014学年学院三等奖学金
+      - award3:
+        name: 获得第四届蓝桥杯江苏赛区Java组二等奖
+      - award3:
+        name: 全国计算机等级考试四级网络工程师
