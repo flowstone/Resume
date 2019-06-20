@@ -27,14 +27,21 @@ author:
   stackoverflow:
 ## 工作经历
   workHistory:
-    - work1:
+    - work3:
+      company: 上海棋至文化传播有限公司
+      location: 上海, 中国
+      title: Java Developer
+      started: 2018
+      duration: (2018.07 - 至今)
+      description:
+    - work2:
       company: 苏州聚尚网络科技有限公司
       location: 苏州, 中国
       title: Java Developer
       started: 2017
       duration: (2016.10 - 2018.06)
       description:
-    - work2:
+    - work1:
       company: 苏州仁创信息科技有限公司 
       location: 苏州, 中国
       title: Java Developer
@@ -42,7 +49,77 @@ author:
       duration: (2015.07 - 2016.09)
       description:
 ## 项目经历
-    
+  projectHistory:
+    - project5:
+      projectname: 瑜伽网上商城
+      company: 苏州聚尚网络科技有限公司
+      location: 苏州, 中国
+      started: 2018
+      duration: (2018.01 - 2018.06)
+      description: <p>开发环境：Eclipse+Maven+SVN+Nginx+Tomcat7+MySQL</p>
+                   <p>软件架构：SpringMVC+Spring+Mybatis+Redis+Solr+Dubbo+ActiveMQ+FreeMarker+FastDFS</p>
+                   <p>瑜伽网上商城是个综合性的互联网B2C平台。作为一个符合女性运动潮流的瑜伽购物商城,用户可以在此网上浏览瑜伽相关商品，下单购买商品。该项目，包含后台管理系统、前台系统，搜索系统，订单系统，会员管理系统，登录系统等其他系统。</p>
+                   <p>责任描述：</p>
+                   <p>1. 后台商品管理，利用dubbo远程调用商品管理系统来完成后台商品的常规操作，使用FastDFS上传商品详情到分布式文件系统管理服务器中，完成商品上架。使用ActiveMQ完成页面静态化和同步搜索服务</p>
+                   <p>2. 搜索系统，开源企业级系统Solr结合ik分词器为前端系统首页搜索关键字提供搜索服务</p>
+                   <p>3. 商品详情，FreeMarker静态化页面,提高访问速度,降低数据库压力</p>
+                   <p>4. 登录系统，解决了分布式系统中session不能共享的问题</p>
+    - project4:
+      projectname: 好派管理
+      company: 苏州聚尚网络科技有限公司
+      location: 苏州, 中国
+      started: 2017
+      duration: (2017.07 - 2017.12)
+      description:  <p>开发环境:Eclipse+Maven+SVN+Tomcat7+MySQL+Redis</p>
+                    <p>软件架构：Struts2+Spring+Spring Data Jpa+Redis+EasyUI+JQuery</p>
+                    <p>原来使用自主研发的一套业务管理系统已经不能适应当前业务与未来发展的假设，要在保证现有其它系统依然正常工作的前提下，构建一个未来系统的基础平台，其它系统要逐渐统一到新管理平台上来管理平台主要包括：
+                    <p>基础设置、取派模块、路由模块、中转模块、经营管理报表、财务统计管理模块,系统设置等模块
+                    <p>责任描述：</p>
+                    <p>1. 参与前期的需求分析，模块的划分</p>
+                    <p>. 参与使用JQuery-EasyUI完成系统使用界面的构建</p>
+                    <p>3. 基础设置模块开发：</p>
+                      <p>1)取派员设置,使用Datagrid完成取派员增删改查操作</p>
+                      <p>2)区域设置,Excel一键上传POI解析技术完成批量导入</p>
+                      <p>3)分区管理,Ajax异步加载分区,并支持分区的POI导出</p>
+                      <p>4)定区管理,调用CRM系统,更新定区关联客户</p>
+                      <p>5)收派标准管理,自定义EasyUI校验器,完成收派的常规操作</p>
+                    <p>4. 参与系统权限控制开发,使用Shiro完成用户的授权及功能菜单显示 </p>      
+    - project3:
+      projectname: 和汽租赁终端 ERP 系统
+      company: 苏州仁创信息科技有限公司
+      location: 苏州, 中国
+      started: 2016
+      duration: (2016.07 - 2016.09)
+      description: <p>开发环境：Eclipse+Maven+JDK1.7+MySQL+Tomcat7+SVN</p>
+                   <p>软件架构：Struts2+Spring+Hibernate+Shiro+Mysql+AJax+JQuery</p>
+                   <p>本系统为ERP系统，通过先进的移动互联网技术，对传统汽车租赁系统进行了互联网化改造，不仅覆盖了传统租赁业务模式，还拓展了多元化的线上汽车租赁业务，也吸收了共享的经济理念，最大化优化配置时间与空间、提高汽车使用效率、提升用户体验、降低企业管理运营成本等。</p>
+                   <p>根据角色需求，系统分为用户和管理员：用户主要包括注册登录、检索出租车辆信息、租赁预定、个人信息管理、租车记录查询等模块；管理员主要包括租车者信息管理、驾驶员信息管理、车辆信息管理、后台数据统计、租车交易记录管理等模块。</p>
+                   <p>责任描述：</p>
+                   <p>本人主要负责注册登录、租车记录查询模块的代码编写。客户通过注册基本信息，进行登录，跳转主页，对车辆进行预定，同时生成车辆订单，完成支付车辆租金和押金，最后生成合同、填写合同信息；租车记录查询，通过租车用户id+时间戳来查询指定用户，点击用户回显租车记录信息。</p>
+    - project2:
+      projectname: 信和智诚 OA 管理 
+      company: 苏州仁创信息科技有限公司
+      location: 苏州, 中国
+      started: 2016
+      duration: (2016.01 - 2016.06)
+      description: <p>软件架构：Spring+Hibernate+Struts2+Mysql+JQuery+ztree+POI+EasyUi+Shiro+WebService</p>
+                   <p>该项目包含考勤管理模块、经费审批模块、请假申请模块、财务统计模块、人员信息管理模块、办公用品审批管理模块、等级权限的管理等几大模块。</p>
+                   <p>责任描述：</p>
+                   <p>1. 员工的管理,权限控制</p>
+                   <p>2. 参与完成办公用品审批管理模块的功能</p>
+                   <p>3. 参与编写员工登录功能实现</p>                
+    - project1:
+      projectname: 青田物流管理
+      company: 苏州仁创信息科技有限公司
+      location: 苏州, 中国
+      started: 2015
+      duration: (2015.07 - 2015.12)
+      description: <p>软件架构：Struts2+Spring+Hibernate+Ehcache+Ajax+JQuery+ztree+POI+EasyUi+Shiro+WebService</p>
+                   <p>基于B/S的架构，主要分为仓库管理和员工管理两个系统，仓库管理主要实现自动配载，傻瓜式拣；及时准确进入系统；建立严谨强大的交接出入流程，系统的自动下单和分单，统计回单确认自动化，资金监控和结算；员工管理系统：主要实现人员信息的常规操作，利用Shiro进行权限管理，根据身份动态显示页面菜单。</p>
+                   <p>责任描述：</p>
+                   <p>1. 主要负责员工的增删改查和权限管理，参与了权限表和页面菜单表的创建</p>
+                   <p>2. 负责自动下单和分单的编码工作，以及自动下单分单失败的查台转单的业务的编码</p>
+                   <p>3. 利用webService将人员系统和仓库系统链接</p>                   
 ## 教育经历
   educationHistory:
     - education1:
@@ -83,9 +160,6 @@ author:
     - skill4:
       name: AJAX
       percentage: 50%
-    - skill5:
-      name: Java/C
-      percentage: 40%
     - skill6:
       name: PHP+MySQL
       percentage: 80%
@@ -105,14 +179,14 @@ author:
       name: Java
       percentage: 70%
     - skill2:
-      name: JSP,Serlvet,
+      name: JSP,Serlvet
       percentage: 70%
     - skill13:
       name: Spring,Struts2,Hibernate
-      percentage: 60%
+      percentage: 70%
     - skill14:
       name: SpringMVC,Mybatis,Spring
-      percentage: 75%
+      percentage: 90%
 ## 奖励及荣誉
   awards:
       - award1:
